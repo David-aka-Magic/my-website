@@ -1,0 +1,15 @@
+<ProfileButton 
+  imageSrc="/path/to/avatar.jpg" 
+  altText="User Profile"
+  profileUrl="/my-profile"
+  menuItems={[
+    {text: "Settings", url: "/settings"},
+    {text: "Logout", url: "/logout"}
+  ]}
+/>
+
+<!-- Simple version without menu -->
+<ProfileButton 
+  altText="John Doe" 
+  profileUrl="/user/john"
+/>
